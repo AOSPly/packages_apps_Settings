@@ -92,4 +92,28 @@
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Reset stats</string>
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
+
+    <!-- Styles -->
+    <string name="styles_title">Styles</string>
+
+    <!--  Volume Panel Plugin   -->
+   <string name="volume_panel">Volume Panel Style</string>
+   <string name="volume_panel_stock">Stock</string>
+   <string name="volume_panel_aosp">AOSP</string>
+   <string name="volume_panel_compact">Compact</string>
+   <string name="volume_panel_oreo">Oreo</string>
+   <string name="volume_panel_tiled">Tiled</string>
+   <string name="volume_panel_miui">MIUI</string>
+   <string name="volume_panel_p404">P404</string>
+    <string name="volume_panel_ssos">ShapeShift</string>
+
+   <!--  Volume Panel Plugin Values   -->
+   <string name="volume_panel_stock_val">com.android.systemui.volume</string>
+   <string name="volume_panel_aosp_val">co.potatoproject.plugin.volume.aosp</string>
+   <string name="volume_panel_miui_val">com.cherish.plugin.volume.miui</string>
+   <string name="volume_panel_compact_val">co.potatoproject.plugin.volume.compact</string>
+   <string name="volume_panel_oreo_val">co.potatoproject.plugin.volume.oreo</string>
+   <string name="volume_panel_tiled_val">co.potatoproject.plugin.volume.tiled</string>
+   <string name="volume_panel_p404_val">co.potatoproject.plugin.volume.p404</string>
+   <string name="volume_panel_ssos_val">co.potatoproject.plugin.volume.ssos</string>
 </resources>

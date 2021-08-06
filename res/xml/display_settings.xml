@@ -208,4 +208,13 @@
         android:title="@string/display_vr_pref_title"
         android:fragment="com.android.settings.display.VrDisplayPreferencePicker" />
 
+    <PreferenceCategory
+        android:title="@string/accessibility_screen_option" />
+
+    <lineageos.preference.LineageSystemSettingListPreference
+            android:key="systemui_plugin_volume"
+            android:title="@string/volume_panel"
+            android:entries="@array/volume_panel_entries"
+            android:entryValues="@array/volume_panel_values"
+            android:defaultValue="@string/volume_panel_stock_val" />
 </PreferenceScreen>
